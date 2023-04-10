@@ -1,0 +1,12 @@
+/**Favorite books
+Compound Effect (5)
+Tiny Habits (3)
+Tuesdays with Morrie (4)
+**/
+
+CREATE TABLE Books ( id INTEGER PRIMARY KEY, name TEXT, rating INTEGER );
+
+INSERT INTO books VALUES (1, "Compund Effect", 5);
+INSERT INTO books VALUES (2, "Tiny Habits", 3);
+INSERT INTO books VALUES (3, "Tuesdays with Morrie", 4);
+SELECT * FROM books;
